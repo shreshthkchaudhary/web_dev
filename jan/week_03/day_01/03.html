@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form in JS</title>
+</head>
+<body>
+    <form action="">
+        <input type="text" id="nm" placeholder="Enter Name">
+        <input type="password" id="pd" placeholder="Enter Password">
+        <input type="submit">
+    </form>
+</body>
+</html>
+
+<script>
+    document.querySelector("form").addEventListener("submit", getData);
+    function getData(event){
+        event.preventDefault()
+        let name = document.querySelector("#nm").value;
+        let password = document.querySelector("#pd").value;
+
+        console.log(name, password);
+    }
+</script>
+

@@ -1,0 +1,75 @@
+<!-- 1. *BMI Calculator*
+- Create an application which calculates BMI (Body Mass Index)
+- Your app should have 2 input boxes
+      - Take weight in kgs from the user
+      - Take height in meters from the user
+- Based on the entered height and weight, calculatethe  the BMI of that person
+- Here is the formula for manually calculating BMI  *`BMI = (weight) / (height * height)`*
+- From the obtained BMI result, display whether the person is
+      - Underweight - *`bmi <= 18.4`*
+      - Normal Weight - *`bmi >= 18.5 && bmi <= 24.9`*
+      - Overweight - *`bmi >= 25 && bmi <= 29.9`*
+      - Obese - *`bmi >= 30`* -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h1>BMI CALCULATOR</h1>
+            <form>
+                <p><label>HEIGHT in CM:</label><input type="text" id = "height" /></p>
+                <p><label>WEIGHT in KG:</label><input type="text" id = "weight" /></p>
+                <button>Calculate</button>
+                <div id="result"></div>
+                <div id="weight-guide">
+                    <h3>BMI Weight Guide</h3>
+                    <p class="fir">Under Weight = Less Then 18.8</p>
+
+                </div>
+            </form>
+
+
+
+    </div>
+    <script src="./project2.js"></script>
+</body>
+</html>
+
+
+<script>
+      const form = document.querySelector('form')
+      // THIS USECASE WILL GIVE YOU EMPTY
+      const height = parseInt(document.querySelector('#height').value)
+
+
+      form.addEventListener('submit', function (e) {
+      e.preventDefault()
+
+      const height = parseInt(document.querySelector('#height').value)
+      const weight = parseInt(document.querySelector('#weight').value)
+      const result = document.querySelector('#result')
+      if (height === '' || height <= 0 || isNaN(height)) {
+      result.innerHTML = `Please give a valid height ${height}`
+      } else if (weight === '' || weight <= 0 || isNaN(weight)) {
+      result.innerHTML = `Please give a valid weight ${weight}`
+      } else {
+      const bmi = (weight / ((height * weight) / 10000)).toFixed(2)
+      //    SHOW RESULT IN DISPLAY
+      result.innerHTML = bmi
+      const wg = document.querySelector('.fir')
+      if (bmi < 18) {
+            wg.innerHTML = `<h1 style = "color:green;"><b>Your Weight is Under 18 you re  fit</b></h1>`
+      } else if (bmi > 18 && bmi < 24) {
+            wg.innerHTML = `<h1 style = "color:blue;"><b>Your Weight is Normal Range</b></h1>`
+      } else {
+            wg.innerHTML = `<h1 style = "color:red;"><b>Your Weight is Over please follow your diet</b></h1>`
+      }
+      }
+
+      })
+</script>
