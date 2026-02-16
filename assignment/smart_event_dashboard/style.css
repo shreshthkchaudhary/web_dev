@@ -1,0 +1,9 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(135deg , #744af2, #7bc8f5 );
+}
+header{
+    color: #ffffff;
+    text-align: center;
+}
