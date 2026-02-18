@@ -59,22 +59,22 @@
 // }
 
 
-hello()
-function hello(){
-    console.log(n);
-    console.log(id);
+// hello()
+// function hello(){
+//     console.log(n);
+//     console.log(id);
 
-    var n = "ram";
+//     var n = "ram";
 
-    if(true){
-        let id = 123;
-        n = "radha"
-        console.log(n);
-        console.log(id);
-    }
-    console.log(n);
-    console.log(id);
-}
+//     if(true){
+//         let id = 123;
+//         n = "radha"
+//         console.log(n);
+//         console.log(id);
+//     }
+//     console.log(n);
+//     console.log(id);
+// }
 
 
 // hello()
@@ -106,5 +106,49 @@ function hello(){
 
 
 // 5. Execution Context -
+
+console.log("start");
+console.log(one());
+
+function three(){
+    return "Hello aspiring developers"
+}
+
+function one(){
+    console.log(name);
+    var name ="radhe radhe";
+    three();
+    return name;
+    console.log(name);
+}
+console.log("mid");
+two()
+
+console.log("end");
+one()
+
+function two (){
+    // console.log(age);   //error
+    let age =25;
+    console.log(three());
+    console.log(age);
+}
+
+console.log(two());
+
+// start
+
+// undefined
+// radhe radhe
+
+// mid
+
+// age is not defined
+// 25
+
+// end
+
+
+
 
 
