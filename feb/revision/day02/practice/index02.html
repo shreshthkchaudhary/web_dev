@@ -4,28 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .cl2{
+            color:blue;
+            font-size: 50px;
+        }
+        .cl1{
+            color:red;
+            
+        }
+        
+    </style>
 </head>
 <body>
-    <div class="box">
-
-    </div>
-    <div class="box">
-
-    </div>
-    <div class="box">
-
-    </div>
+    <p class="cl2">Paragraph</p>
 </body>
 </html>
 <script>
-    let a=1
-    let x = document.querySelectorAll(".box");
-    console.log(x)
-    for(i of x){
-        i.innerText=`a ${a}`;
-        a++;
-    }
-    // x[0].innerText="a";
-    // x[1].innerText="b";
-    // x[2].innerText="c";
+    let a = document.querySelector("p");
+    a.classList.add("cl1");
+    console.log(a.classList)
+    a.classList.remove("cl2")
 </script>

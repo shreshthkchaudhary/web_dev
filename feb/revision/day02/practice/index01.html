@@ -6,9 +6,13 @@
     <title>Document</title>
 </head>
 <body>
-    <h2>Hello JavaScript</h2>
+
 </body>
 </html>
 <script>
-    document.querySelector("h2").innerText +=" from Apna College students"
+    let a = document.createElement("button");
+    a.innerText="click me";
+    a.style.backgroundColor="red";
+    a.style.color="white";
+    document.body.prepend(a);
 </script>
