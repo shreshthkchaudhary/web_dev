@@ -1,0 +1,10 @@
+body{
+    background-color: brown;
+}
+
+#box{
+    border: 1px black solid;
+    height: 100px;
+    width: 100px;
+    color: white;
+}
