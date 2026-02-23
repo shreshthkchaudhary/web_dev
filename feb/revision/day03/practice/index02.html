@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+    let bt = document.createElement("button");
+    bt.setAttribute("id","bt1");
+    bt.style.height="50px";
+    bt.style.width="100px";
+    bt.innerText="dark-mode";
+    document.body.prepend(bt);
+
+    let count=2
+    bt.addEventListener("mouseover", ()=>{
+        if (count%2==0){
+            bt.innerText="light-mode";
+            document.body.style.backgroundColor="Black";
+        }else {
+            bt.innerText="dark-mode";
+            document.body.style.backgroundColor="";
+        }
+        count++
+    })
+
+</script>
