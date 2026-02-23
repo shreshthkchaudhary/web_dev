@@ -17,4 +17,4 @@ setTimeout(()=>{
 },0)
 console.log("End")
 
-// event loop is a fundamental mechanical that helps javascript to perform a syncronus operation while maintaining a syncronus programming language.
+// event loop is a fundamental mechanical that helps javascript to perform asyncronus operation while maintaining a syncronus programming language.

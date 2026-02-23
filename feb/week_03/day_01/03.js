@@ -1,5 +1,5 @@
 // 7. Event Loop
-
+// event loop is a fundamental mechanical that helps javascript to perform asyncronus operation while maintaining a syncronus programming language.
 console.log("Start");
 setInterval(()=>{
 console.log(three())
