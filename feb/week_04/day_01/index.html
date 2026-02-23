@@ -1,0 +1,42 @@
+<!-- Promise = A promise is an object that may produce a single value some time in the future:
+   either a resolved value, or a reason that its not resolved.
+   There are 3 state of Promise:
+   1. fulfilled
+   2. rejected
+   3. pending -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Promises</h1>
+</body>
+</html>
+<script>
+
+    //  [[Prototype]] : Promise [[PromiseState]] : "pending" [[PromiseResult]] : undefined
+
+    const promise01 = new Promise(()=>{
+
+    });
+    console.log(promise01, typeof promise01)
+
+
+    //  [[Prototype]] : Promise [[PromiseState]] : "rejected" [[PromiseResult]] : "hello world"
+
+    const promise02 = new Promise((resolve, reject)=>{
+        return reject("hello world")
+    });
+    console.log(promise02, typeof promise02)
+
+
+    // Step - 2 Read values from Promise
+
+    promise02
+        .then((res) => console.log(res))
+        .then((rej) => console.log(rej))
+
+</script>
