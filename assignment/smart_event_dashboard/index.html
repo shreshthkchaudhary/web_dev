@@ -11,9 +11,41 @@
         <h1>Smart Event Dashboard</h1>
     </header>
     <main>
-        <section>
-            
+        <section id="sec01">
+            <h2>Add New Event</h2>
+
+            <label for="title">Event Title:</label>
+            <input type="text" id="title">
+
+            <label for="date">Event Date:</label>
+            <input type="date" id="date">
+            <label for="category">Category:</label>
+            <select id="category">
+                <option value="Conference">Conference</option>
+                <option value="Workshop">Workshop</option>
+                <option value="Meetup">Meetup</option>
+                <option value="Webinar">Webinar</option>
+                <option value="Other">Other</option>
+            </select>
+            <label for="description">Description:</label>
+            <textarea id="description"></textarea>
+            <button id="addbtn">Add Event</button>
+        </section>
+        <section id="sec02">
+            <h2>My Events</h2>
+            <div id="sec02btn">
+                <button class="btn" id="clearbtn">Clear All Events</button>
+                <button class="btn" id="samplebtn">Add Sample Events</button>
+            </div>
+            <div id="container">
+
+            </div>
         </section>
     </main>
+    <footer>
+        <h2>DOM Manipulation Demo</h2>
+        <p>You pressed: <span id="keypress-display">none</span></p>
+    </footer>
 </body>
 </html>
+<script src="./script.js"></script>

@@ -1,9 +1,91 @@
 body {
-    margin: 0;
     height: 100vh;
     background: linear-gradient(135deg , #744af2, #7bc8f5 );
 }
 header{
     color: #ffffff;
     text-align: center;
+}
+
+main {
+    display: flex;
+    gap: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+#sec01 {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    min-width: 260px;
+}
+
+label {
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+h2 {
+    margin-top: 0;
+    color: blue;
+}
+
+input, select, textarea{
+    padding-bottom: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 2px grey solid;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+button {
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background: linear-gradient(135deg , #744af2, #7bc8f5 );
+}
+
+#sec02 {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    flex: 2;
+    min-width: 260px;
+}
+
+#sec02btn {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+}
+
+.btn {
+    width: 100%;
+}
+
+#container {
+
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    margin: 10px auto;
+}
+
+footer {
+    margin: 20px auto;
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    min-width: 260px;
+    max-width: 850px;
+
 }
