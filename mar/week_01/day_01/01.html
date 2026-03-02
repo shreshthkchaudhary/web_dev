@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<script>
+    const api = "https://jsonplaceholder.typicode.com/comments";
+    const data = async function getData() {
+        // async code
+
+        const response = await fetch(api);
+        console.log(response); // readablestream
+
+        const ans =  await response.json(); // convert to json data
+        console.log(ans);
+
+    }
+
+    // console.log(data());
+    data()
+</script>
