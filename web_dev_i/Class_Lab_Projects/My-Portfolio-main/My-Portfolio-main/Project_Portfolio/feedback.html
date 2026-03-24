@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Survey Form</title>
+</head>
+
+<body>
+    <main>
+        <h1>Feedback Survey Form</h1>
+        <form><B>
+                <lable for="name">Name:</lable>
+                <br>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <lable for="dob">Date of Birth:</lable>
+                <br>
+                <input type="date" id="dob" name="dob" required>
+                <br>
+                <lable for="roll">Roll Number:</lable>
+                <br>
+                <input type="number" id="roll" name="roll">
+                <br>
+                <lable for="mob">Mobile Number:</lable>
+                <br>
+                <input type="number" id="mob" name="mob" required>
+                <br>
+                <lable for="email">Email:</lable>
+                <br>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <lable for="Gender">Gender:</lable>
+                <br>
+            </B>
+            <input type="radio" id="male" name="Gender" value="Male" required>
+            <label for="male">Male</label>
+
+            <input type="radio" id="female" name="Gender" value="Female">
+            <label for="female">Female</label>
+
+            <input type="radio" id="others" name="Gender" value="Others">
+            <label for="others">Others</label>
+            <br>
+            <B>
+                <label for="type">Type of Feedback:</label>
+                <br>
+                <input list="type" name="type" required>
+                <datalist id="type">
+                    <option value="Negative">
+                    <option value="Positive">
+                    <option value="Help">
+                    <option value="Technical Issue">
+                    <option value="Fraud">
+                </datalist>
+                <br>
+                <label for="rate">Rating:</label>
+                <br>
+                <input list="rate" name="rate" required>
+                <datalist id="rate">
+                    <option value="1 STAR">
+                    <option value="2 STAR">
+                    <option value="3 STAR">
+                    <option value="4 STAR">
+                    <option value="5 STAR">
+                </datalist>
+                <br>
+                <label for="mess">Feedback:</label>
+                <br>
+                <textarea id="mess" name="mess" rows="5" cols="40" placeholder="Please Describe Your Visit Here"
+                    required></textarea>
+                <br>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+                <br></B>
+        </form>
+    </main>
+    <footer>
+        <marquee behavior="scroll" direction="left">
+            &copy; 2025 ShreshthKChaudhary. All Rights Reserved.
+        </marquee>
+    </footer>
+</body>
+
+
+</html>

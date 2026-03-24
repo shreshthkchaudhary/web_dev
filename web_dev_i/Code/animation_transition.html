@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Transition vs Animation</title>
+  <style>
+    .box {
+      width: 150px;
+      height: 150px;
+      background-color: #3498db;
+      margin: 50px auto;
+      /* animation: color change */
+      animation: colorChange 3s infinite alternate;   /* keyframes */
+      /* transition for movement */
+      transition: transform 0.4s ease;               /* state change */
+    }
+
+    /* Move 200px down on hover using transition */
+    .box:hover {
+      transform: translateY(200px);
+    }
+
+    /* @keyframes for smooth background color change */
+    @keyframes colorChange {
+      0%   { background-color: #3498db; }
+      50%  { background-color: #9b59b6; }
+      100% { background-color: #e74c3c; }
+    }
+  </style>
+</head>
+<body>
+  <h2 style="text-align:center;">Transition & Animation Example</h2>
+  <div class="box"></div>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .child{
+            border: 2px solid black;
+            height: 100px;
+            width: 100px;
+        }
+        #child1{
+            position: fixed;
+            left: 00px;
+            top: 100px;
+        }
+        #child2{
+            position: fixed;
+            left: 150px;
+            top: 100px;
+        }
+        #child3{
+            position: fixed;
+            left: 300px;
+            top: 100px;
+        }
+        #child4{
+            position: fixed;
+            left: 450px;
+            top: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div class="child" id="child1">1</div>
+    <div class="child" id="child2">2</div>
+    <div class="child" id="child3">3</div>
+    <div class="child" id="child4">4</div>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #parent{
+            border: 2px solid black;
+            height: 500px;
+            width: 500px;
+            display: flex;
+            /* gap: 10px; */
+            justify-content: center;
+            /* justify-content: end; */
+            justify-content: space-between;
+            align-items: center;
+            align-items: end;
+        }
+        .child{
+            border: 2px solid black;
+            height: 100px;
+            width: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <div class="child" id="child1">1</div>
+        <div class="child" id="child2">2</div>
+        <div class="child" id="child3">3</div>
+        <div class="child" id="child4">4</div>
+    </div>
+</body>
+</html>

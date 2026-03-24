@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid</title>
+    <style>
+        #parent{
+            border: 2px solid black;
+            height: 600px;
+            width: 600px;
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            /* grid-template-columns: repeat(3,150); */
+            /* grid-template-columns: 1fr 1fr 1fr; */
+            grid-template-rows: auto auto auto auto;
+
+            /* gap: 10px; */
+            /* justify-items: center;
+            align-items: center; */
+            /* justify-content: end; */
+            /* justify-content: space-between;
+            align-items: center;
+            align-items: end; */
+        }
+        .child{
+            border: 2px solid black;
+            height: auto;
+            width: auto;
+            box-sizing: border-box;
+        }
+
+        #child1{
+            /* grid-row-start: 1;
+            grid-row-end: 5; */
+            grid-row: 1/2;
+            grid-column: 1/5;
+        }
+        #child2{
+            /* grid-row-start: 1;
+            grid-row-end: 3; */
+            grid-row: 2/3;
+            grid-column: 1/2;
+        }
+        #child3{
+            /* grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 3;
+            grid-row-end: 5; */
+            grid-row: 3/5;
+            grid-column: 1/2;
+        }
+        #child4{
+            /* grid-row-start: 1;
+            grid-row-end: 5; */
+            grid-row: 3/5;
+            grid-column: 2/5;
+        }
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <div class="child" id="child1">1</div>
+        <div class="child" id="child2">2</div>
+        <div class="child" id="child3">3</div>
+        <div class="child" id="child4">4</div>
+        <!-- <div class="child" id="child5">5</div>
+        <div class="child" id="child6">6</div>
+        <div class="child" id="child7">7</div>
+        <div class="child" id="child8">8</div>
+        <div class="child" id="child9">9</div> -->
+    </div>
+</body>
+</html>

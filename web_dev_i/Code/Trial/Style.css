@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    font-size: large;
+}
+#p1{
+    text-align: center;
+}
+#p2{
+    text-align: right;
+}
+#p3{
+    text-align: center;
+}
+.class{
+    background-color: rgb(94, 185, 255);
+}
+p{
+    text-align: left;
+}
+#p3{
+    border: 2px solid blue;
+    height: 330px;
+    background-image: url(./Cloud.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    align-content: flex-;
+}
+#p4{
+    border: 10px solid rgb(82, 156, 253);
+    padding: 20px;
+    margin: 20px;
+    background-color: rgb(97, 173, 255);
+    text-align: center;
+}
+#p5{
+    text-align: right;
+}

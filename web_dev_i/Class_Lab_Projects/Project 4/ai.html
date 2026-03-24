@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Learnify – Online Learning</title>
+  <link rel="stylesheet" href="ai.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">Learnify</div>
+      <div class="search-bar">
+        <input type="text" placeholder="Search courses, topics..." />
+        <span class="search-icon">&#128269;</span>
+      </div>
+      
+      <div class="auth-buttons">
+        <button class="btn ghost">Login</button>
+        <button class="btn primary">Sign Up</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <h1>Unlock Your Potential with Online Learning</h1>
+          <p>Join thousands of learners and access top-rated courses from expert instructors. Learn anytime, anywhere.</p>
+          <div class="hero-search">
+            <input type="text" placeholder="What do you want to learn?" />
+            <button class="btn primary">Find Courses</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Popular Categories -->
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">Popular Categories</h2>
+        <div class="category-grid">
+          <article class="category-card">
+            <div class="icon">💻</div>
+            <h3>Development</h3>
+          </article>
+          <article class="category-card">
+            <div class="icon">🎨</div>
+            <h3>Design</h3>
+          </article>
+          <article class="category-card">
+            <div class="icon">📊</div>
+            <h3>Business</h3>
+          </article>
+          <article class="category-card">
+            <div class="icon">🗣️</div>
+            <h3>Languages</h3>
+          </article>
+          <article class="category-card">
+            <div class="icon">📚</div>
+            <h3>Academics</h3>
+          </article>
+          <article class="category-card">
+            <div class="icon">🎵</div>
+            <h3>Music</h3>
+          </article>
+          <article class="category-card">
+            <div class="icon">🌿</div>
+            <h3>Lifestyle</h3>
+          </article>
+          <article class="category-card">
+            <div class="icon">🔬</div>
+            <h3>Science</h3>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Courses -->
+    <section class="section light">
+      <div class="container">
+        <div class="section-header-row">
+          <h2 class="section-title">Featured Courses</h2>
+          <div class="filters">
+            <select>
+              <option>Level: All</option>
+              <option>Beginner</option>
+              <option>Intermediate</option>
+              <option>Advanced</option>
+            </select>
+            <select>
+              <option>Price: All</option>
+              <option>Free</option>
+              <option>Paid</option>
+            </select>
+            <label class="inline-checkbox">
+              <input type="checkbox" />
+              Certificate
+            </label>
+          </div>
+        </div>
+
+        <div class="course-grid">
+          <article class="course-card">
+            <div class="course-image"></div>
+            <div class="course-body">
+              <h3>Modern Web Development Bootcamp</h3>
+              <p class="rating">⭐ 4.8</p>
+              <p class="price">$49</p>
+            </div>
+          </article>
+
+          <article class="course-card">
+            <div class="course-image"></div>
+            <div class="course-body">
+              <h3>Graphic Design Masterclass</h3>
+              <p class="rating">⭐ 4.5</p>
+              <p class="price">$39</p>
+            </div>
+          </article>
+
+          <article class="course-card">
+            <div class="course-image"></div>
+            <div class="course-body">
+              <h3>Business Analytics Fundamentals</h3>
+              <p class="rating">⭐ 4.9</p>
+              <p class="price">Free</p>
+            </div>
+          </article>
+
+          <article class="course-card">
+            <div class="course-image"></div>
+            <div class="course-body">
+              <h3>Spanish for Beginners</h3>
+              <p class="rating">⭐ 4.6</p>
+              <p class="price">$29</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Instructors -->
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">Meet Our Instructors</h2>
+        <div class="instructor-grid">
+          <article class="instructor-card">
+            <div class="avatar"></div>
+            <h3>John Carter</h3>
+            <p class="role">Web Developer</p>
+            <p class="meta">10+ years teaching full‑stack development and JavaScript frameworks.</p>
+          </article>
+
+          <article class="instructor-card">
+            <div class="avatar"></div>
+            <h3>Lisa Wong</h3>
+            <p class="role">Graphic Designer</p>
+            <p class="meta">Award‑winning designer with a passion for creative education.</p>
+          </article>
+
+          <article class="instructor-card">
+            <div class="avatar"></div>
+            <h3>Ahmed El‑Sayed</h3>
+            <p class="role">Business Analyst</p>
+            <p class="meta">Expert in data‑driven business strategies and analytics tools.</p>
+          </article>
+
+          <article class="instructor-card">
+            <div class="avatar"></div>
+            <h3>Maria Garcia</h3>
+            <p class="role">Language Coach</p>
+            <p class="meta">Specialist in immersive language learning for all ages.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="section light">
+      <div class="container">
+        <h2 class="section-title">What Our Students Say</h2>
+        <div class="testimonial-grid">
+          <article class="testimonial-card">
+            <p class="quote">“The courses are well‑structured and easy to follow. I landed my first job thanks to Learnify!”</p>
+            <p class="name">Anna Smith • Marketing Student</p>
+          </article>
+          <article class="testimonial-card">
+            <p class="quote">“Great instructors and a huge variety of topics. The platform is intuitive and responsive.”</p>
+            <p class="name">Mark Lee • Entrepreneur</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Latest Articles -->
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">Latest Articles</h2>
+        <div class="article-grid">
+          <article class="article-card">
+            <div class="article-image"></div>
+            <div class="article-body">
+              <h3>5 Tips to Boost Your Online Learning</h3>
+              <p class="meta">June 2024 • 5 min read</p>
+              <a href="#" class="link">Read More →</a>
+            </div>
+          </article>
+          <article class="article-card">
+            <div class="article-image"></div>
+            <div class="article-body">
+              <h3>Top 10 In‑Demand Skills in 2024</h3>
+              <p class="meta">May 2024 • 7 min read</p>
+              <a href="#" class="link">Read More →</a>
+            </div>
+          </article>
+          <article class="article-card">
+            <div class="article-image"></div>
+            <div class="article-body">
+              <h3>How to Choose the Right Course</h3>
+              <p class="meta">April 2024 • 4 min read</p>
+              <a href="#" class="link">Read More →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section light">
+      <div class="container">
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <div class="faq-list">
+          <details>
+            <summary>How do I enroll in a course?</summary>
+            <p>Browse the course catalog, open a course page, and click the Enroll button to get started.</p>
+          </details>
+          <details>
+            <summary>Are there any free courses?</summary>
+            <p>Yes, many introductory courses are available at no cost so you can start learning immediately.</p>
+          </details>
+          <details>
+            <summary>Do I get a certificate after completion?</summary>
+            <p>Most paid courses include a shareable completion certificate.</p>
+          </details>
+          <details>
+            <summary>Can I access courses on mobile?</summary>
+            <p>All courses are optimized for phones, tablets, and desktops.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter">
+      <div class="container newsletter-inner">
+        <h2>Subscribe to Our Newsletter</h2>
+        <p>Get the latest updates, course launches, and exclusive offers straight to your inbox.</p>
+        <form class="newsletter-form">
+          <input type="email" placeholder="Your email address" required />
+          <button class="btn primary" type="submit">Subscribe</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="logo">Learnify</div>
+        <p>Empowering learners worldwide with quality online education.</p>
+      </div>
+      <div>
+        <h4>Links</h4>
+        <ul>
+          <li><a href="#">Courses</a></li>
+          <li><a href="#">Instructors</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">FAQ</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li>Email: support@learnify.com</li>
+          <li>Phone: +1 234 567 890</li>
+          <li>123 Learning St, Edutown</li>
+        </ul>
+      </div>
+      <div>
+        <h4>Follow Us</h4>
+        <ul class="socials">
+          <li><a href="#">Fb</a></li>
+          <li><a href="#">Tw</a></li>
+          <li><a href="#">In</a></li>
+        </ul>
+      </div>
+    </div>
+    <p class="footer-bottom">© 2024 Learnify. All rights reserved.</p>
+  </footer>
+</body>
+</html>

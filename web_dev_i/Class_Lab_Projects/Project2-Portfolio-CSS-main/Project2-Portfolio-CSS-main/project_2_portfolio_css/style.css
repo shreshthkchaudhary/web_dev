@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#top {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f8f9fa;
+    color: #222;
+    line-height: 1.6;
+}
+
+#head {
+    background-color: #3151aa;
+    color: #fff;
+    padding: 30px 0 15px 0;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+header h1 {
+    font-size: 2.6rem;
+    margin-bottom: 10px;
+}
+
+nav a {
+    color: #ffe66d;
+    text-decoration: none;
+    margin: 0 18px;
+    font-weight: 500;
+    font-size: 1.13rem;
+    transition: color 0.2s;
+}
+
+
+h2 {
+    color: #3151aa;
+    margin-bottom: 12px;
+}
+
+h3 {
+    color: #3151aa;
+    margin-bottom: 10px;
+}
+
+#contact, #skills, .about, main, aside {
+    margin: 32px auto;
+    padding: 22px 15px;
+    max-width: 730px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 9px rgba(100,114,167,0.10);
+}
+
+.about h1, .about h3 {
+    margin-bottom: 5px;
+}
+
+
+
+#pp {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    border: 3px solid #3151aa;
+}
+
+#aside {
+    background: #e5edfa;
+    border: 1px solid #3151aa;
+    font-size: 1.09rem;
+}
+
+
+
+h2 {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.project-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: #fff;
+    text-align: center;
+    width: 80%;
+    max-width: 500px;
+    margin: 0 auto 20px auto;
+    padding: 20px;
+}
+
+.project-card h3 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.project-card p {
+    margin-bottom: 0;
+    color: #444;
+    font-size: 1em;
+    text-align: center;
+}
+
+.project_img{
+    height: 200px;
+}
+
+.tab {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 14px;
+}
+
+#table1 td {
+    border: 1px solid #3151aa;
+    padding: 8px 10px;
+    text-align: left;
+}
+
+#table1 th {
+    border: 1px solid #3151aa;
+    padding: 8px 10px;
+    text-align: left;
+}
+
+#table2 td {
+    border: 1px solid #3151aa;
+    padding: 8px 10px;
+    text-align: left;
+}
+
+.tab tr{
+    background-color: #e5edfa;
+    font-weight: bold;
+}
+
+#table2 #sub {
+    text-align: center;
+}
+
+
+input[type="text"], input[type="email"], textarea {
+    width: 94%;
+    padding: 6px;
+    border: 1.3px solid #3151aa;
+    border-radius: 6px;
+    font-size: 0.98rem;
+    background: #f4f8ff;
+}
+
+input[type="submit"] {
+    background-color: #3151aa;
+    color: #ffe66d;
+    border: none;
+    padding: 9px 22px;
+    border-radius: 7px;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #23355b;
+    color: #fff87b;
+}
+
+
+footer {
+    background: #3151aa;
+    color: #ffe66d;
+    padding: 18px 0 7px 0;
+    text-align: center;
+    font-size: 1.09rem;
+}
+
+footer h2 {
+    color: #ffe66d;
+}
+
+.logo {
+    width: 32px;
+    height: 32px;
+    margin: 0 9px -8px 0;
+    border-radius: 3px;
+}
+
+#backToTop {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #3151aa;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 25px;
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: none;
+  z-index: 1000;
+}
+
+marquee {
+    color: #ffe66d;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+hr {
+    border: none;
+    height: 1.5px;
+    background: #3151aa;
+    margin: 30px 0 16px 0;
+}

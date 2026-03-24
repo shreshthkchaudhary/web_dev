@@ -1,0 +1,57 @@
+@keyframes fadein {
+    0% {opacity: 1;}
+    50% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+
+@keyframes fadeout {
+    0% {opacity: 0;}
+    50% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+
+#head {
+    animation: fadeout 4s linear infinite;
+}
+
+#head1 {
+    animation: fadein 4s linear infinite;
+}
+
+/* 2. Slide In From Left */
+
+.slide {
+  position: relative;
+  animation: slideIn 2s ease-in;
+}
+
+@keyframes slideIn {
+  from { left: -200px; }
+  to { left: 0; }
+}
+
+/* 3. Bounce Animation */
+
+.bounce {
+  animation: bounce 1s infinite;
+}
+
+@keyframes bounce {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-30px); }
+  100% { transform: translateY(0); }
+}
+
+/* 4. Pulse (Zoom In–Out) */
+
+.pulse {
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+  100% { transform: scale(1); }
+}

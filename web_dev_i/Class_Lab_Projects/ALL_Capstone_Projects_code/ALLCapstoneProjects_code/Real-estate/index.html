@@ -1,0 +1,318 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Real Estate</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="logo">DreamHome</div>
+        <div class="menu-toggle">&#9776;</div>
+<nav class="nav-links" id="nav-links">
+    <a href="#properties">Properties</a>
+    <a href="#footer">Agents</a>
+    <a href="#why">Why Us</a>
+    <a href="#blog">Blog</a>
+    <a href="#contact">Contact</a>
+</nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Find Your Home</h1>
+            <p>Discover the best properties for sale and rent</p>
+        </div>
+    </section>
+
+    <!-- Search Filter -->
+    <form class="search-bar" autocomplete="off">
+        <input type="text" placeholder="Location">
+        <select>
+            <option>Price</option>
+            <option>Under $500k</option>
+            <option>$500k - $1M</option>
+            <option>$1M - $2M</option>
+            <option>$2M+</option>
+        </select>
+        <select>
+            <option>Bedrooms</option>
+            <option>1+</option>
+            <option>2+</option>
+            <option>3+</option>
+            <option>4+</option>
+        </select>
+        <select>
+            <option>Type</option>
+            <option>House</option>
+            <option>Apartment</option>
+            <option>Townhouse</option>
+            <option>Villa</option>
+        </select>
+        <button type="submit">Search</button>
+    </form>
+
+    <!-- Property Listings -->
+    <section class="section" id="properties">
+        <div class="section-title">Latest Properties</div>
+        <div class="property-grid">
+            <div class="property-card">
+                <img src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=400&q=80" alt="Property">
+                <div class="property-card-body">
+                    <div class="property-price">$950,000</div>
+                    <div class="property-title">Modern Family House</div>
+                    <div class="property-features">
+                        <span>4 Beds</span>
+                        <span>3 Baths</span>
+                        <span>2,500 sqft</span>
+                    </div>
+                    <div class="property-features">
+                        <span>Los Angeles, CA</span>
+                    </div>
+                </div>
+            </div>
+            <div class="property-card">
+                <img src="https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&w=400&q=80" alt="Property">
+                <div class="property-card-body">
+                    <div class="property-price">$1,200,000</div>
+                    <div class="property-title">Luxury Villa</div>
+                    <div class="property-features">
+                        <span>5 Beds</span>
+                        <span>4 Baths</span>
+                        <span>3,800 sqft</span>
+                    </div>
+                    <div class="property-features">
+                        <span>Miami, FL</span>
+                    </div>
+                </div>
+            </div>
+            <div class="property-card">
+                <img src="https://images.unsplash.com/photo-1460518451285-97b6aa326961?auto=format&fit=crop&w=400&q=80" alt="Property">
+                <div class="property-card-body">
+                    <div class="property-price">$650,000</div>
+                    <div class="property-title">Cozy Townhouse</div>
+                    <div class="property-features">
+                        <span>3 Beds</span>
+                        <span>2 Baths</span>
+                        <span>1,800 sqft</span>
+                    </div>
+                    <div class="property-features">
+                        <span>Seattle, WA</span>
+                    </div>
+                </div>
+            </div>
+            <div class="property-card">
+                <img src="https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?auto=format&fit=crop&w=400&q=80" alt="Property">
+                <div class="property-card-body">
+                    <div class="property-price">$850,000</div>
+                    <div class="property-title">Downtown Apartment</div>
+                    <div class="property-features">
+                        <span>2 Beds</span>
+                        <span>2 Baths</span>
+                        <span>1,200 sqft</span>
+                    </div>
+                    <div class="property-features">
+                        <span>New York, NY</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Property Detail Mock -->
+    <section class="section">
+        <div class="section-title">Property Detail</div>
+        <div class="property-detail">
+            <div class="property-detail-img">
+                <img src="https://images.unsplash.com/photo-1507089947368-19c1da9775ae?auto=format&fit=crop&w=600&q=80" alt="Property Detail">
+            </div>
+            <div class="property-detail-info">
+                <h2>Luxury Villa in Miami</h2>
+                <p>Experience the ultimate in luxury living with this stunning villa featuring 5 bedrooms, 4 bathrooms, a private pool, and breathtaking ocean views. Located in the heart of Miami, close to top schools and amenities.</p>
+                <div class="property-features">
+                    <span>5 Beds</span>
+                    <span>4 Baths</span>
+                    <span>3,800 sqft</span>
+                    <span>Miami, FL</span>
+                </div>
+                <div class="property-price" style="margin-top:1rem;">$1,200,000</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Agents -->
+    <section class="section" id="agents">
+        <div class="section-title">Featured Agents</div>
+        <div class="agents-grid">
+            <div class="agent-card">
+                <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Agent">
+                <h4>John Carter</h4>
+                <span>Senior Agent</span>
+                <p>10+ years of experience in luxury properties.</p>
+            </div>
+            <div class="agent-card">
+                <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Agent">
+                <h4>Emily Stone</h4>
+                <span>Property Specialist</span>
+                <p>Expert in family homes and apartments.</p>
+            </div>
+            <div class="agent-card">
+                <img src="https://randomuser.me/api/portraits/men/54.jpg" alt="Agent">
+                <h4>Michael Lee</h4>
+                <span>Commercial Expert</span>
+                <p>Specialist in commercial and investment properties.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section class="section" id="why">
+        <div class="section-title">Why Choose Us</div>
+        <div class="features-grid">
+            <div class="feature-card">
+                <i>🏆</i>
+                <h5>Trusted Experts</h5>
+                <p>Our agents are certified and highly experienced.</p>
+            </div>
+            <div class="feature-card">
+                <i>💬</i>
+                <h5>24/7 Support</h5>
+                <p>We are always available to assist you.</p>
+            </div>
+            <div class="feature-card">
+                <i>🔍</i>
+                <h5>Wide Selection</h5>
+                <p>Find properties that match your needs and budget.</p>
+            </div>
+            <div class="feature-card">
+                <i>💰</i>
+                <h5>Best Deals</h5>
+                <p>Get the best prices and exclusive offers.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Counter Strip -->
+    <div class="stats-strip">
+        <div class="stat">
+            <span class="number">1,200+</span>
+            <span class="label">Properties Sold</span>
+        </div>
+        <div class="stat">
+            <span class="number">350</span>
+            <span class="label">Happy Clients</span>
+        </div>
+        <div class="stat">
+            <span class="number">15</span>
+            <span class="label">Years Experience</span>
+        </div>
+        <div class="stat">
+            <span class="number">30</span>
+            <span class="label">Expert Agents</span>
+        </div>
+    </div>
+
+    <!-- Blog Previews -->
+    <section class="section" id="blog">
+        <div class="section-title">Latest Blog Posts</div>
+        <div class="blog-grid">
+            <div class="blog-card">
+                <img src="https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=400&q=80" alt="Blog">
+                <div class="blog-card-body">
+                    <h5>Tips for First-Time Home Buyers</h5>
+                    <p>Learn how to navigate the real estate market and find your dream home with our expert tips.</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+            <div class="blog-card">
+                <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="Blog">
+                <div class="blog-card-body">
+                    <h5>How to Stage Your Home for Sale</h5>
+                    <p>Discover the secrets to making your property stand out and attract more buyers.</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+            <div class="blog-card">
+                <img src="https://images.unsplash.com/photo-1512918728675-ed5a9ecdebfd?auto=format&fit=crop&w=400&q=80" alt="Blog">
+                <div class="blog-card-body">
+                    <h5>Understanding Mortgage Rates</h5>
+                    <p>Get the latest insights on mortgage rates and how they affect your buying power.</p>
+                    <a href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Signup -->
+    <section class="section">
+        <div class="newsletter">
+            <h3>Subscribe to Our Newsletter</h3>
+            <p>Get the latest property updates and news delivered to your inbox.</p>
+            <form>
+                <input type="email" placeholder="Your email address" required>
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="contact-form-section" id="contact">
+        <h3>Contact Us</h3>
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <input type="text" placeholder="Subject" required>
+            <textarea rows="4" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-col">
+            <h4>DreamHome</h4>
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Press</a></li>
+                <li><a href="#">Investors</a></li>
+            </ul>
+        </div>
+        <div class="footer-col">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="#properties">Properties</a></li>
+                <li><a href="#agents">Agents</a></li>
+                <li><a href="#why">Why Us</a></li>
+                <li><a href="#blog">Blog</a></li>
+            </ul>
+        </div>
+        <div class="footer-col" >
+            <h4>Contact</h4>
+            <ul>
+                <li>123 Main St, Miami, FL</li>
+                <li>info@dreamhome.com</li>
+                <li>+1 234 567 890</li>
+            </ul>
+        </div>
+        <div class="footer-col" >
+            <h4>Follow Us</h4>
+            <ul>
+                <li><a href="#">Facebook</a></li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">LinkedIn</a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2024 DreamHome Real Estate. All rights reserved.
+        </div>
+    </footer>
+</body>
+</html></form>
