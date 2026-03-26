@@ -15,7 +15,7 @@
 // console.table([a,b,c])
 
 
-// // Premitive datatypes :
+// // Primitive datatypes : 7 types
 // number - 2^53
 // bigint - for large numbers
 // string - ""
@@ -24,8 +24,24 @@
 // undefined - 
 // symbol - unique
 
-// // Non-Premitive datatypes :
-// object - 
+// // Non-Premitive / Reference datatypes :
+// objects - 
+// array - 
+// functions
+
+// // Array
+// const arr = ["hi",1];
+// // Object
+// let obj = {
+//     a : 1,
+//     b : 2,
+//     c : 3
+// }
+// // Function
+// const func = function(){
+//     console.log("a")
+// } 
+
 
 
 
@@ -33,3 +49,6 @@
 // console.log(typeof null)        // object
 // console.log(typeof undefined)        // undefined
 // console.log(typeof true)        // boolean
+// console.log(typeof Object)      // function
+// console.log(typeof Array)       // function
+// console.log(typeof Function)        // function
