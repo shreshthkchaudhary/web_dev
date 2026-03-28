@@ -5,4 +5,5 @@ console.log(`${a}`)
 
 console.log(`
     ${a.toString().length}
-    ${a.toPrecision(1)}`)
+    ${a.toPrecision(1)}
+    ${a.toFixed(3)}`)
