@@ -1,9 +1,11 @@
 import Avt from "./Components/Avt";
+import Greet from "./Components/Greet";
 
 function App() {
   return (
     <>
       <h1>App</h1>
+      <Greet/>
       <Avt
         name={"shreshth"}
         id={2501010080}
