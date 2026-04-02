@@ -1,5 +1,6 @@
 import Avt from "./Components/Avt";
 import Greet from "./Components/Greet";
+import "./App.css";
 
 function App() {
   return (
