@@ -4,6 +4,7 @@ function Post(){
     //     res.json()
     // );
     // }
+    
     return(
         <div>
             <h1>Fetch with Hooks</h1>
