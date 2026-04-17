@@ -1,20 +1,3 @@
-"use strict";       //  treate all JS ccode as a newer version
-
-
-// alert(2+3);      //  this is not browser
-
-
-// console.log("a");  console.log("b");        //  use of ";"
-
-
-
-// const a = 1 ;        // can't be redeclare Or reassigned 
-// let b = 2 ;      // can't be redeclare but can be reassigned
-// var c = 3 ;      // can be redeclare Or reassigned
-
-// console.table([a,b,c])
-
-
 // // Primitive datatypes : 7 types
 // number - 2^53
 // bigint - for large numbers
@@ -52,3 +35,34 @@
 // console.log(typeof Object)      // function
 // console.log(typeof Array)       // function
 // console.log(typeof Function)        // function
+
+
+
+
+// let a = "1"
+// let b = null
+// let c;
+// console.log(typeof a,b,c)       // string null undefined
+// a=Number(a)
+// b=Number(b)
+// c=Number(c)
+// console.log(typeof a,b,c)       // number 0 NaN
+
+
+// // boolean operation
+// 0 - false; 1 - true;
+// "" - false; "a" - true;
+
+
+
+// // Operation
+
+// console.log("1"+1+1)
+// console.log(1+1+"1")
+// console.log(+true)
+// console.log(+"")
+
+// let a = 100;
+// a++;
+// ++a;
+// console.log(a);
