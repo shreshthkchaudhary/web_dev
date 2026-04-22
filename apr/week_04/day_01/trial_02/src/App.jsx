@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import Nav from './Components/Nav'
+// import Nav from './Components/Nav'
 import './App.css'
 import NavBar from './Components/NavBar'
 
@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div>
-      <Nav/>
+      {/* <Nav/> */}
       <NavBar/>
       
     </div>
