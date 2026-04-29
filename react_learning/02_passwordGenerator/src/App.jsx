@@ -19,9 +19,6 @@ function App() {
     <div className='w-full h-screen bg-black'>
       <h1 className='text-white text-4xl text-center'>Password Generator</h1>
 
-
-
-
     </div>
   )
 }
