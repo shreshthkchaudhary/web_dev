@@ -18,6 +18,7 @@ function App() {
       <h1 className='text-white text-4xl text-center'>Password Generator</h1>
     </div>
     
+    
   )
 }
 
