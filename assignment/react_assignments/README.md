@@ -28,6 +28,7 @@ Babel takes JSX (which looks like HTML written inside JavaScript) and transforms
 
 **Example:**
 
+
 ```jsx
 // JSX — what you write
 const el = <h1 className="title">Hello</h1>;
